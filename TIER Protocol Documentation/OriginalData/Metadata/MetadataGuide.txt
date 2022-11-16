@@ -1,0 +1,15 @@
+Original data drinks.csv is available in /OriginalData folder. It's alco copied to /AnalysisData.
+
+Data after analysis is available in:
+* /AnalysisData/drinks.csv - 
+** country - strint - information about country 
+** beer_serving - int - information about served beers quantity 
+** spirit_serving - int - information about served spirit quantity
+** wine_serving - int - information about served wine quantity
+** total_litres_of_pure_alcohol - float - information about litres of pure alcohol
+
+* /AnalysisData/pew_drinks.csv - file contains organizes information from drinks.csv. 
+** country - strint - information about country 
+** total_litres_of_pure_alcohol - float - information about litres of pure alcohol
+** drink - string - information of alcohol type 
+** Quantity - int - information about served drinks quantity
